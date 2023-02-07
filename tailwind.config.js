@@ -83,8 +83,11 @@ module.exports = {
       dropShadow: {
         '3xl': '0 30px 90px rgba(252, 97, 54, 0.45)',
         '4xl': '0 20px 60px rgba(0, 0, 0, 0.17)',
-        '5xl': '0 30px 60px rgba(252, 97, 54, 0.35)',
-      }
+      },
+      boxShadow: {
+        '3xl': '0px 20px 60px -10px rgba(252, 97, 54, 0.4)',
+        '4xl': '0 30px 90px -10px rgba(252, 97, 54, 0.2)',
+      },
     },
     
   },

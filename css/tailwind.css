@@ -7,8 +7,11 @@
     @apply text-2xl;
   }
 } */
-@layer base{
-    p, button{
-       @apply font-body;
-    }
+@layer base {
+  p,
+  button {
+    @apply font-body;
+  }
 }
+
+
