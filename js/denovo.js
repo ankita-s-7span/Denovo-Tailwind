@@ -1,8 +1,8 @@
 $(document).ready(function () {
   $(".denovo_slider").slick({
     centerMode: true,
-    centerPadding: "60px",
-    slidesToShow: 3,
+    centerPadding: "160px",
+    slidesToShow: 2,
     responsive: [
       {
         breakpoint: 768,
@@ -10,7 +10,7 @@ $(document).ready(function () {
           arrows: false,
           centerMode: true,
           centerPadding: "40px",
-          slidesToShow: 3,
+          slidesToShow: 2,
         },
       },
       {
