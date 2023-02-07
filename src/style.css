@@ -562,6 +562,9 @@ video {
 .bottom-auto {
   bottom: auto;
 }
+.top-\[262px\] {
+  top: 262px;
+}
 .z-10 {
   z-index: 10;
 }
