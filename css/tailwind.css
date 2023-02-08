@@ -2,15 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @layer base {
-  h1 {
-    @apply text-2xl;
-  }
-} */
+
 @layer base {
   p,
   button {
     @apply font-body;
+  }
+}
+
+/* @layer components{
+ .wave{
+    @apply before:block before:absolute before:content-0 before:bg-wave-line before:w-full before:bg-no-repeat before:-left-[290px] before:inset-y-0 relative;
+  }
+} */
+
+@layer utilities {
+  .content-0 {
+    content: " ";
+  }
+  .wave{
+    content: " ";
+    background: url('/assets/wave_line.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    left: -290px;
+    top: 0;
+    bottom: 0;
+  }
+  .vertical{
+    content: " ";
+    background: url('/assets/line_vertical.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    left: 25px;
+    top: -106px;
+    bottom: 0;
   }
 }
 

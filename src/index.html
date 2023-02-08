@@ -64,7 +64,7 @@
     </header>
 
     <section>
-      <div class="container mt-16 pb-56">
+      <div class="container mt-16 pb-56 max-xs:pb-16">
         <div class="flex flex-col md:flex-row justify-between items-center">
           <div
             class="w-full md:w-1/2 text-center md:text-left mb-6 md:mb-0 pr-7"
@@ -88,7 +88,7 @@
             </button>
           </div>
           <div
-            class="flex flex-none w-full md:w-1/2 relative xs:hidden md:flex"
+            class="max-xs:hidden flex flex-none w-full md:w-1/2 relative"
           >
             <div class="block w-full z-10">
               <img
@@ -181,7 +181,7 @@
           </div>
 
           <div class="flex-1 pb-8 md:pb-0">
-            <div>
+            <div class="before:wave relative">
               <img
                 src="/assets/solutions_tooth_decay.svg"
                 class="bg-secondary p-4 rounded-md"
@@ -199,7 +199,7 @@
           </div>
 
           <div class="flex-1 pb-8 md:pb-0">
-            <div>
+            <div class="before:wave relative">
               <img
                 src="/assets/solutions_smile.svg"
                 class="bg-secondary p-4 rounded-md"
@@ -232,7 +232,7 @@
             />
           </div>
 
-          <div class="flex-1">
+          <div class="flex-1 text-center md:text-left">
             <h1 class="text-secondary text-4xl font-bold py-4">Who We Are</h1>
             <p>
               Lörem ipsum nybebåhet tena äst plans kötirad, råliga. Plasat
@@ -281,7 +281,7 @@
 
             <div class="mt-16 flex gap-x-4 items-baseline">
               <span
-                class="bg-tertery text-secondary font-bold p-4 h-fit text-center rounded-full inline-block"
+                class="bg-tertery text-secondary font-bold p-4 h-fit text-center rounded-full before:vertical relative"
                 >02</span
               >
               <div>
@@ -297,7 +297,7 @@
 
             <div class="mt-16 flex gap-x-4 items-baseline">
               <span
-                class="bg-tertery text-secondary font-bold p-4 h-fit text-center rounded-full"
+                class="bg-tertery text-secondary font-bold p-4 h-fit text-center rounded-full before:vertical relative"
                 >03</span
               >
               <div>
@@ -326,7 +326,7 @@
     </section>
 
     <section>
-      <div class="bg-tertery/30 mt-16 md:mt-32">
+      <div class="bg-tertery/30 mt-16 h-80 md:mt-32">
         <div
           class="flex container py-16 flex-wrap flex-col md:flex-row justify-between items-center"
         >
@@ -344,125 +344,128 @@
             </p>
           </div>
         </div>
-        <!-- <div class="denovo_slider"> -->
-        <div class="denovo_slider">
-          <div class="card">
+      </div>
+
+      <div class="denovo_slider">
+        <div class="card">
+          <div>
+            <img
+              src="/assets/smile.png"
+              class="max-w-[590px] mx-auto object-cover w-full"
+            />
+          </div>
+          <div
+            class="max-w-[320px] max-xs:max-w-[240px] -mt-16 mx-auto relative bg-white p-7 rounded-lg"
+          >
             <div>
-              <img
-                src="/assets/smile.png"
-                class="max-w-[590px] object-cover w-full"
-              />
+              <p class="text-quaternary pb-4">
+                Lörem ipsum bedal antibebel medan hyperstat nudis polylig
+                polun i hexast hexatötoskapet rengen då antiska. Todonade
+                spenuska fås polyrat.
+              </p>
             </div>
-            <div
-              class="max-w-[320px] -mt-16 mx-auto relative bg-white p-7 rounded-lg"
-            >
-              <div>
-                <p class="text-[#777777] pb-4">
-                  Lörem ipsum bedal antibebel medan hyperstat nudis polylig
-                  polun i hexast hexatötoskapet rengen då antiska. Todonade
-                  spenuska fås polyrat.
-                </p>
+            <div class="flex place-items-center">
+              <div class="flex-row">
+                <img src="/assets/Picture.png" />
               </div>
-              <div class="flex place-items-center">
-                <div class="flex-row">
-                  <img src="/assets/Picture.png" />
-                </div>
-                <div class="flex-row pl-4">
-                  <h4 class="text-secondary font-bold">Anita Milly</h4>
-                  <p class="text-[#474A57]">CEO at ABC Corporation</p>
-                </div>
+              <div class="flex-row pl-4">
+                <h4 class="text-secondary font-bold">Anita Milly</h4>
+                <p class="text-[#474A57]">CEO at ABC Corporation</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="card">
+        <div class="card">
+          <div>
+            <img
+              src="/assets/smile.png"
+              class="max-w-[590px] mx-auto object-cover w-full"
+            />
+          </div>
+          <div
+            class="max-w-[320px] max-xs:max-w-[240px] -mt-16 mx-auto relative bg-white p-7 rounded-lg"
+          >
             <div>
-              <img
-                src="/assets/smile.png"
-                class="max-w-[590px] object-cover w-full"
-              />
+              <p class="text-quaternary pb-4">
+                Lörem ipsum bedal antibebel medan hyperstat nudis polylig
+                polun i hexast hexatötoskapet rengen då antiska. Todonade
+                spenuska fås polyrat.
+              </p>
             </div>
-            <div
-              class="max-w-[320px] -mt-16 mx-auto relative bg-white p-7 rounded-lg"
-            >
-              <div>
-                <p class="text-[#777777] pb-4">
-                  Lörem ipsum bedal antibebel medan hyperstat nudis polylig
-                  polun i hexast hexatötoskapet rengen då antiska. Todonade
-                  spenuska fås polyrat.
-                </p>
+            <div class="flex place-items-center">
+              <div class="flex-row">
+                <img src="/assets/Picture.png" />
               </div>
-              <div class="flex place-items-center">
-                <div class="flex-row">
-                  <img src="/assets/Picture.png" />
-                </div>
-                <div class="flex-row pl-4">
-                  <h4 class="text-secondary font-bold">Anita Milly</h4>
-                  <p class="text-[#474A57]">CEO at ABC Corporation</p>
-                </div>
+              <div class="flex-row pl-4">
+                <h4 class="text-secondary font-bold">Anita Milly</h4>
+                <p class="text-[#474A57]">CEO at ABC Corporation</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="card">
+        <div class="card">
+          <div>
+            <img
+              src="/assets/smile.png"
+              class="max-w-[590px] mx-auto object-cover w-full"
+            />
+          </div>
+          <div
+            class="max-w-[320px] max-xs:max-w-[240px] -mt-16 mx-auto relative bg-white p-7 rounded-lg"
+          >
             <div>
-              <img
-                src="/assets/smile.png"
-                class="max-w-[590px] object-cover w-full"
-              />
+              <p class="text-quaternary pb-4">
+                Lörem ipsum bedal antibebel medan hyperstat nudis polylig
+                polun i hexast hexatötoskapet rengen då antiska. Todonade
+                spenuska fås polyrat.
+              </p>
             </div>
-            <div
-              class="max-w-[320px] -mt-16 mx-auto relative bg-white p-7 rounded-lg"
-            >
-              <div>
-                <p class="text-[#777777] pb-4">
-                  Lörem ipsum bedal antibebel medan hyperstat nudis polylig
-                  polun i hexast hexatötoskapet rengen då antiska. Todonade
-                  spenuska fås polyrat.
-                </p>
+            <div class="flex place-items-center">
+              <div class="flex-row">
+                <img src="/assets/Picture.png" />
               </div>
-              <div class="flex place-items-center">
-                <div class="flex-row">
-                  <img src="/assets/Picture.png" />
-                </div>
-                <div class="flex-row pl-4">
-                  <h4 class="text-secondary font-bold">Anita Milly</h4>
-                  <p class="text-[#474A57]">CEO at ABC Corporation</p>
-                </div>
+              <div class="flex-row pl-4">
+                <h4 class="text-secondary font-bold">Anita Milly</h4>
+                <p class="text-[#474A57]">CEO at ABC Corporation</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="card">
+        <div class="card">
+          <div>
+            <img
+              src="/assets/smile.png"
+              class="max-w-[590px] mx-auto object-cover w-full"
+            />
+          </div>
+          <div
+            class="max-w-[320px] max-xs:max-w-[240px] -mt-16 mx-auto relative bg-white p-7 rounded-lg"
+          >
             <div>
-              <img
-                src="/assets/smile.png"
-                class="max-w-[590px] object-cover w-full"
-              />
+              <p class="text-quaternary pb-4">
+                Lörem ipsum bedal antibebel medan hyperstat nudis polylig
+                polun i hexast hexatötoskapet rengen då antiska. Todonade
+                spenuska fås polyrat.
+              </p>
             </div>
-            <div
-              class="max-w-[320px] -mt-16 mx-auto relative bg-white p-7 rounded-lg"
-            >
-              <div>
-                <p class="text-[#777777] pb-4">
-                  Lörem ipsum bedal antibebel medan hyperstat nudis polylig
-                  polun i hexast hexatötoskapet rengen då antiska. Todonade
-                  spenuska fås polyrat.
-                </p>
+            <div class="flex place-items-center">
+              <div class="flex-row">
+                <img src="/assets/Picture.png" />
               </div>
-              <div class="flex place-items-center">
-                <div class="flex-row">
-                  <img src="/assets/Picture.png" />
-                </div>
-                <div class="flex-row pl-4">
-                  <h4 class="text-secondary font-bold">Anita Milly</h4>
-                  <p class="text-[#474A57]">CEO at ABC Corporation</p>
-                </div>
+              <div class="flex-row pl-4">
+                <h4 class="text-secondary font-bold">Anita Milly</h4>
+                <p class="text-[#474A57]">CEO at ABC Corporation</p>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- <div></div>
+      <div></div> -->
     </section>
 
     <section>
@@ -479,7 +482,7 @@
             </div>
             <div class="px-10 py-14">
               <h4 class="text-secondary">"Match Your Max" Discount</h4>
-              <p class="text-[#777777]">
+              <p class="text-quaternary">
                 <span class="font-bold">Want to save even more? </span> We
                 deduct your dental insurance maximum from your bill - so you get
                 to keep your insurance payout.
@@ -496,7 +499,7 @@
             </div>
             <div class="px-10 py-14">
               <h4 class="text-secondary">Price Beat Guarantee</h4>
-              <p class="text-[#777777]">
+              <p class="text-quaternary">
                 We will beat any dental implant quote you have received from
                 another dental implant center.
               </p>
@@ -512,7 +515,7 @@
             </div>
             <div class="px-10 py-14">
               <h4 class="text-secondary">No Hidden Fees</h4>
-              <p class="text-[#777777]">
+              <p class="text-quaternary">
                 We don’t sneak in any additional fees. All will be discussed
                 during a consultation.
               </p>
@@ -556,4 +559,5 @@
     ></script>
     <script type="text/javascript" src="/js/denovo.js"></script>
   </body>
+
 </html>

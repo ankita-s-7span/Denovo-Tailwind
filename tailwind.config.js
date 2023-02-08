@@ -10,7 +10,8 @@ module.exports = {
   content: ["./src/**/*.{html,js,jsx}", "./src/index.html"],
   theme: {
     screens: {
-      xs: '576px',
+      xxs: '320px', 
+      xs: '576px', //max-xs means all screens less tham 576
       sm: '768px',
       md: '992px',
       lg: '1200px',
@@ -62,6 +63,7 @@ module.exports = {
       primary: "#FC6136",
       secondary: "#67568C", 
       tertery: "#FBDD74",
+      quaternary: "#777777",
       white_light: "#F5F6FF",
     },
 
@@ -88,6 +90,10 @@ module.exports = {
         '3xl': '0px 20px 60px -10px rgba(252, 97, 54, 0.4)',
         '4xl': '0 30px 90px -10px rgba(252, 97, 54, 0.2)',
       },
+      backgroundImage: {
+        'wave-line': "url('/assets/wave_line.png')",
+        'vertical-line': "url('/assets/line_vertical.png')",
+      }
     },
     
   },

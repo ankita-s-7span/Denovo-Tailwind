@@ -7,7 +7,27 @@ $(document).ready(function () {
     arrows:false,
     responsive: [
       {
+        breakpoint: 992,
+        settings: {
+          arrows: false,
+          dots: false,
+          centerMode: true,
+          centerPadding: "180px",
+          slidesToShow: 1,
+        },
+      },
+      {
         breakpoint: 768,
+        settings: {
+          arrows: false,
+          dots: false,
+          centerMode: true,
+          centerPadding: "140px",
+          slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 576,
         settings: {
           arrows: false,
           dots: false,
@@ -17,12 +37,12 @@ $(document).ready(function () {
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 399,
         settings: {
           arrows: false,
           dots: false,
           centerMode: true,
-          centerPadding: "40px",
+          centerPadding: "0px",
           slidesToShow: 1,
         },
       },
