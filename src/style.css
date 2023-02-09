@@ -570,10 +570,6 @@ video {
   margin-top: 8rem;
   margin-bottom: 8rem;
 }
-.my-7 {
-  margin-top: 1.75rem;
-  margin-bottom: 1.75rem;
-}
 .mt-4 {
   margin-top: 1rem;
 }
@@ -645,9 +641,6 @@ video {
 }
 .flex {
   display: flex;
-}
-.inline-flex {
-  display: inline-flex;
 }
 .h-72 {
   height: 18rem;
@@ -760,11 +753,11 @@ video {
 .justify-between {
   justify-content: space-between;
 }
-.gap-2 {
-  gap: 0.5rem;
-}
 .gap-6 {
   gap: 1.5rem;
+}
+.gap-3 {
+  gap: 0.75rem;
 }
 .gap-x-20 {
   -moz-column-gap: 5rem;
@@ -778,12 +771,12 @@ video {
   -moz-column-gap: 1rem;
        column-gap: 1rem;
 }
+.gap-y-3 {
+  row-gap: 0.75rem;
+}
 .gap-x-8 {
   -moz-column-gap: 2rem;
        column-gap: 2rem;
-}
-.gap-y-3 {
-  row-gap: 0.75rem;
 }
 .space-x-3 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
@@ -817,6 +810,15 @@ video {
 .border {
   border-width: 1px;
 }
+.border-t {
+  border-top-width: 1px;
+}
+.border-t-4 {
+  border-top-width: 4px;
+}
+.border-t-2 {
+  border-top-width: 2px;
+}
 .border-primary {
   --tw-border-opacity: 1;
   border-color: rgb(252 97 54 / var(--tw-border-opacity));
@@ -828,6 +830,19 @@ video {
 .border-\[\#D2D2D2\] {
   --tw-border-opacity: 1;
   border-color: rgb(210 210 210 / var(--tw-border-opacity));
+}
+.border-t-white {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+.border-t-white\/90 {
+  border-top-color: rgb(255 255 255 / 0.9);
+}
+.border-t-white\/10 {
+  border-top-color: rgb(255 255 255 / 0.1);
+}
+.border-t-white\/20 {
+  border-top-color: rgb(255 255 255 / 0.2);
 }
 .bg-primary {
   --tw-bg-opacity: 1;
@@ -854,17 +869,8 @@ video {
 .bg-tertery\/30 {
   background-color: rgb(251 221 116 / 0.3);
 }
-.bg-transparent {
-  background-color: transparent;
-}
-.bg-secondary\/10 {
-  background-color: rgb(103 86 140 / 0.1);
-}
 .bg-white\/10 {
   background-color: rgb(255 255 255 / 0.1);
-}
-.fill-primary {
-  fill: #FC6136;
 }
 .object-cover {
   -o-object-fit: cover;
@@ -933,18 +939,6 @@ video {
 .py-7 {
   padding-top: 1.75rem;
   padding-bottom: 1.75rem;
-}
-.px-52 {
-  padding-left: 13rem;
-  padding-right: 13rem;
-}
-.px-48 {
-  padding-left: 12rem;
-  padding-right: 12rem;
-}
-.px-44 {
-  padding-left: 11rem;
-  padding-right: 11rem;
 }
 .pb-0 {
   padding-bottom: 0px;
@@ -1146,17 +1140,6 @@ video {
 
   .max-xs\:pb-16 {
     padding-bottom: 4rem;
-  }
-}
-
-@media (min-width: 576px) {
-
-  .xs\:flex-row {
-    flex-direction: row;
-  }
-
-  .xs\:justify-between {
-    justify-content: space-between;
   }
 }
 
