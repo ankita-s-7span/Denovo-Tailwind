@@ -39,9 +39,23 @@
     display: block;
     position: absolute;
     left: 25px;
-    top: -106px;
+    top: -102px;
     bottom: 0;
   }
+  
 }
 
+.div-half::before {
+  content: "";
+  height: 350px;
+  position: absolute;
+  width: 100%;
+  background: white;
+  bottom: 0;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: #fc6136;
+}
 

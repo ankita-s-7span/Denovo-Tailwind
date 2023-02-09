@@ -9,3 +9,8 @@
     top: 0;
     bottom: 0;
   }
+
+  .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #fc6136;
+}

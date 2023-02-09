@@ -9,8 +9,7 @@ module.exports = {
   darkMode: "class", // to support toggling dark mode manually instead of relying on the operating system preference, use the class strategy instead of the media strategy
   content: ["./src/**/*.{html,js,jsx}", "./src/index.html"],
   theme: {
-    screens: {
-      xxs: '320px', 
+    screens: { 
       xs: '576px', //max-xs means all screens less tham 576
       sm: '768px',
       md: '992px',
@@ -69,8 +68,8 @@ module.exports = {
 
     extend: {
       animation: {
-        marquee: 'marquee 25s linear infinite',
-        marquee2: 'marquee2 25s linear infinite',
+        marquee: 'marquee 20s linear infinite',
+        marquee2: 'marquee2 20s linear infinite',
       },
       keyframes: {
         marquee: {
