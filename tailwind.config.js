@@ -56,14 +56,10 @@ module.exports = {
     colors: {
       gray: colors.gray,
       white: colors.white,
-      blue: colors.blue,
-      transparent: transparent,
-      black: "#000000",
       primary: "#FC6136",
       secondary: "#67568C", 
       tertery: "#FBDD74",
-      quaternary: "#777777",
-      white_light: "#F5F6FF",
+      quaternary: "#747474",
     },
 
     extend: {
@@ -90,7 +86,7 @@ module.exports = {
         '4xl': '0 30px 90px -10px rgba(252, 97, 54, 0.2)',
       },
       backgroundImage: {
-        'wave-line': "url('/assets/wave_line.png')",
+        'wave-line': "url('/assets/line_wave.png')",
         'vertical-line': "url('/assets/line_vertical.png')",
       }
     },
