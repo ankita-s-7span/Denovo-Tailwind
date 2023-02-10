@@ -9,8 +9,8 @@ module.exports = {
   darkMode: "class", // to support toggling dark mode manually instead of relying on the operating system preference, use the class strategy instead of the media strategy
   content: ["./src/**/*.{html,js,jsx}", "./src/index.html"],
   theme: {
-    screens: {
-      xs: '576px',
+    screens: { 
+      xs: '576px', //max-xs means all screens less tham 576
       sm: '768px',
       md: '992px',
       lg: '1200px',
@@ -56,19 +56,16 @@ module.exports = {
     colors: {
       gray: colors.gray,
       white: colors.white,
-      blue: colors.blue,
-      transparent: transparent,
-      black: "#000000",
       primary: "#FC6136",
       secondary: "#67568C", 
       tertery: "#FBDD74",
-      white_light: "#F5F6FF",
+      quaternary: "#747474",
     },
 
     extend: {
       animation: {
-        marquee: 'marquee 25s linear infinite',
-        marquee2: 'marquee2 25s linear infinite',
+        marquee: 'marquee 20s linear infinite',
+        marquee2: 'marquee2 20s linear infinite',
       },
       keyframes: {
         marquee: {
@@ -83,7 +80,14 @@ module.exports = {
       dropShadow: {
         '3xl': '0 30px 90px rgba(252, 97, 54, 0.45)',
         '4xl': '0 20px 60px rgba(0, 0, 0, 0.17)',
-        '5xl': '0 30px 60px rgba(252, 97, 54, 0.35)',
+      },
+      boxShadow: {
+        '3xl': '0px 20px 60px -10px rgba(252, 97, 54, 0.4)',
+        '4xl': '0 30px 90px -10px rgba(252, 97, 54, 0.2)',
+      },
+      backgroundImage: {
+        'wave-line': "url('/assets/line_wave.png')",
+        'vertical-line': "url('/assets/line_vertical.png')",
       }
     },
     
