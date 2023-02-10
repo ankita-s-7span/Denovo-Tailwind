@@ -5,6 +5,8 @@
 
 @import "tailwindcss/utilities";
 
+
+/* @import "./base/text.css"; */
 @layer base {
   button{
     @apply font-body text-xs;
@@ -20,6 +22,7 @@
   }
 }
 
+/* @import "./components/custom.css"; */
 @layer components{
   .wave{
     @apply content-0 bg-wave-line bg-no-repeat block w-0 md:w-full absolute md:left-[-250px] lg:left-[-290px] top-0 bottom-0;
@@ -32,6 +35,7 @@
   }
 }
 
+/* @import "./utilities/content.css"; */
 @layer utilities {
   .content-0 {
     content: " ";

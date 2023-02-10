@@ -506,6 +506,17 @@ video {
     opacity: .75 !important;
     color: #fc6136 !important;
   }
+/* .wv-line + .wv-line {
+    content: " ";
+    background: url('/assets/line_wave.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    left: -290px;
+    top: 0;
+    bottom: 0;
+  } */
 .container {
   width: 100%;
   margin-right: auto;
@@ -1079,6 +1090,9 @@ video {
   --tw-drop-shadow: drop-shadow(0 30px 90px rgba(252, 97, 54, 0.45));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
+/* @import "./base/text.css"; */
+/* @import "./components/custom.css"; */
+/* @import "./utilities/content.css"; */
 .before\:wave::before{
     content: var(--tw-content);
     position: absolute;
