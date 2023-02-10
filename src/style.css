@@ -502,6 +502,10 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.slick-dots li.slick-active button:before {
+    opacity: .75 !important;
+    color: #fc6136 !important;
+  }
 .container {
   width: 100%;
   margin-right: auto;
@@ -1075,12 +1079,6 @@ video {
   --tw-drop-shadow: drop-shadow(0 30px 90px rgba(252, 97, 54, 0.45));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
-
-.slick-dots li.slick-active button:before {
-  opacity: .75 !important;
-  color: #fc6136 !important;
-}
-
 .before\:wave::before{
     content: var(--tw-content);
     position: absolute;
@@ -1092,7 +1090,6 @@ video {
     background-repeat: no-repeat;
     content: " ";
   }
-
 @media (min-width: 992px) {
 
   .before\:wave::before {
@@ -1100,14 +1097,12 @@ video {
     width: 100%;
   }
 }
-
 @media (min-width: 1200px) {
 
   .before\:wave::before {
     left: -290px;
   }
 }
-
 .before\:vertical::before{
     content: var(--tw-content);
     position: absolute;
@@ -1120,14 +1115,12 @@ video {
     background-repeat: no-repeat;
     content: " ";
   }
-
 @media (min-width: 992px) {
 
   .before\:vertical::before {
     width: 100%;
   }
 }
-
 .before\:half-bg-ternary::before{
     content: var(--tw-content);
     position: absolute;
@@ -1138,7 +1131,6 @@ video {
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
     content: " ";
   }
-
 @media not all and (min-width: 576px) {
 
   .max-xs\:hidden {
@@ -1161,7 +1153,6 @@ video {
     padding-bottom: 4rem;
   }
 }
-
 @media (min-width: 768px) {
 
   .sm\:flex-row {
@@ -1176,7 +1167,6 @@ video {
     font-size: 2.25rem;
   }
 }
-
 @media (min-width: 992px) {
 
   .md\:mt-0 {
@@ -1243,4 +1233,5 @@ video {
     text-align: left;
   }
 }
+
 

@@ -1,6 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "./slider.css";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
 
 @layer base {
   button{
@@ -35,8 +38,4 @@
   }  
 }
 
-.slick-dots li.slick-active button:before {
-  opacity: .75 !important;
-  color: #fc6136 !important;
-}
 

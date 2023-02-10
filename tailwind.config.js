@@ -6,6 +6,7 @@ const plugin = require("tailwindcss/plugin");
 
 module.exports = {
   mode: "jit",
+  "postcss-import": ["./css/test.css"],
   darkMode: "class", // to support toggling dark mode manually instead of relying on the operating system preference, use the class strategy instead of the media strategy
   content: ["./src/**/*.{html,js,jsx}", "./src/index.html"],
   theme: {
