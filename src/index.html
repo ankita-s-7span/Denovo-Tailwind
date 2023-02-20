@@ -9,10 +9,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link
       href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
       rel="stylesheet"
     />
@@ -35,20 +31,24 @@
           class="flex flex-col md:flex-row justify-between items-center py-4 w-full"
         >
           <div class="flex cursor-pointer">
-            <img src="/assets/svg/logo_header.svg" alt="Logo" />
+            <img
+              src="/assets/svg/logo_header.svg"
+              alt="Logo"
+              class="max-w-[166px]"
+            />
           </div>
           <div
             class="flex justify-center md:justify-end items-center font-semibold mt-4 md:mt-0 text-sm w-full"
           >
             <ul class="flex space-x-3">
               <li>
-                <a href="#">About</a>
+                <a href="javascript:;">About</a>
               </li>
               <li>
-                <a href="#">FAQs</a>
+                <a href="javascript:;">FAQs</a>
               </li>
               <li>
-                <a href="#">Contact Us</a>
+                <a href="javascript:;">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -69,7 +69,7 @@
           class="flex flex-col-reverse md:flex-row justify-between items-center"
         >
           <div
-            class="w-full md:w-1/2 text-center md:text-left pb-16 md:pb-0 pr-0 md:pr-7 max-xs:pt-0 pt-56 md:pt-0"
+            class="w-full md:w-1/2 text-center md:text-left pb-16 md:pb-0 pr-0 md:pr-7 max-md:pt-0 pt-56 md:pt-0"
           >
             <div>
               <h2 class="text-secondary font-bold text-3xl sm:text-5xl">
@@ -89,15 +89,15 @@
               Book your free consultation
             </button>
           </div>
-          <div class="flex flex-none w-full md:w-1/2 relative">
-            <div class="block max-xs:w-auto w-full z-10 max-xs:pb-16">
+          <div class="flex flex-none w-full max-xs:w-auto md:w-1/2 relative">
+            <div class="block max-xs:w-auto w-full z-10 max-md:pb-16">
               <img
-                class="ml-auto mr-0 object-cover max-w-sm w-full min-h-0 border-white rounded-lg ring-2 ring-offset-2 ring-gray-100 drop-shadow-4xl"
+                class="ml-auto mr-0 max-md:mr-auto object-cover max-w-[540px] md:max-w-sm w-full min-h-0 border-white rounded-lg ring-2 ring-offset-2 ring-gray-100 drop-shadow-4xl"
                 src="/assets/banner_2.png"
               />
             </div>
             <div
-              class="absolute -bottom-36 left-0 right-auto top-auto z-20 max-xs:hidden"
+              class="absolute -bottom-36 left-0 right-auto top-auto z-20 max-md:hidden"
             >
               <img
                 class="object-cover max-w-[284px] w-full min-h-0"
@@ -105,7 +105,7 @@
               />
             </div>
             <div
-              class="absolute -bottom-16 left-20 right-auto top-auto h-72 w-72 bg-primary opacity-20 rounded-lg max-xs:hidden"
+              class="absolute -bottom-16 left-20 right-auto top-auto h-72 w-72 bg-primary opacity-20 rounded-lg max-md:hidden"
             ></div>
           </div>
         </div>
@@ -115,7 +115,7 @@
     <section>
       <div class="relative flex overflow-x-hidden">
         <div
-          class="py-9 animate-marquee whitespace-nowrap bg-secondary text-2xl sm:text-4xl text-white"
+          class="py-7 animate-marquee whitespace-nowrap bg-secondary text-2xl sm:text-4xl text-white"
         >
           <img src="/assets/svg/emoji_smile.svg" class="inline-block" />
           <span class="mx-4">Smile with confidence again</span>
@@ -128,7 +128,7 @@
         </div>
 
         <div
-          class="absolute top-0 py-9 animate-marquee2 whitespace-nowrap bg-secondary text-2xl sm:text-4xl text-white"
+          class="absolute top-0 py-7 animate-marquee2 whitespace-nowrap bg-secondary text-2xl sm:text-4xl text-white"
         >
           <img src="/assets/svg/emoji_smile.svg" class="inline-block" />
           <span class="mx-4">Smile with confidence again</span>
@@ -163,13 +163,13 @@
         </div>
 
         <div
-          class="flex flex-wrap flex-col md:flex-row justify-between gap-x-20 mt-12 md:mt-24"
+          class="flex flex-col md:flex-row justify-between gap-x-20 mt-12 md:mt-24"
         >
-          <div class="flex-1 pb-8 md:pb-0">
+          <div class="pb-8 md:pb-0 text-center sm:text-left">
             <div>
               <img
                 src="/assets/svg/solutions_dental_plus.svg"
-                class="bg-secondary p-4 rounded-md"
+                class="bg-secondary p-4 rounded-md max-w-[70px] mx-auto sm:mx-0"
               />
             </div>
             <div>
@@ -181,17 +181,15 @@
             </div>
           </div>
 
-          <div class="flex-1 pb-8 md:pb-0">
+          <div class="pb-8 md:pb-0 text-center sm:text-left">
             <div class="before:wave relative">
               <img
                 src="/assets/svg/solutions_tooth_decay.svg"
-                class="bg-secondary p-4 rounded-md"
+                class="bg-secondary p-4 rounded-md max-w-[70px] mx-auto sm:mx-0"
               />
             </div>
-            <div>
-              <h4 class="font-medium mt-4">
-                Lasts Decades, If Not a Lifetime
-              </h4>
+            <div class="">
+              <h4 class="font-medium mt-4">Lasts Decades, If Not a Lifetime</h4>
               <p class="mt-3">
                 Dentures need to be replaced often. With proper hygiene,
                 All‑On‑4 implants can last decades.
@@ -199,11 +197,11 @@
             </div>
           </div>
 
-          <div class="flex-1 pb-8 md:pb-0">
+          <div class="pb-8 md:pb-0 text-center sm:text-left">
             <div class="before:wave relative">
               <img
                 src="/assets/svg/solutions_smile.svg"
-                class="bg-secondary p-4 rounded-md"
+                class="bg-secondary p-4 rounded-md max-w-[70px] mx-auto sm:mx-0"
               />
             </div>
             <div>
@@ -258,9 +256,7 @@
 
     <section>
       <div class="container mt-16 md:mt-32">
-        <h1
-          class="text-secondary font-bold mb-4 text-center md:text-left"
-        >
+        <h1 class="text-secondary font-bold mb-4 text-center md:text-left">
           How It Works
         </h1>
         <div
@@ -269,7 +265,7 @@
           <div class="flex-1 mb-14">
             <div class="flex gap-x-4 items-baseline">
               <span
-                class="bg-tertery text-secondary font-bold p-4 h-fit text-center rounded-full"
+                class="bg-tertery text-secondary font-bold p-[13px] w-12 h-12 rounded-[50%]"
                 >01</span
               >
               <div>
@@ -286,7 +282,7 @@
 
             <div class="mt-14 flex gap-x-4 items-baseline">
               <span
-                class="bg-tertery text-secondary font-bold p-4 h-fit text-center rounded-full before:vertical relative"
+                class="bg-tertery text-secondary font-bold p-[13px] w-12 h-12 rounded-[50%] before:vertical relative"
                 >02</span
               >
               <div>
@@ -302,7 +298,7 @@
 
             <div class="mt-14 flex gap-x-4 items-baseline">
               <span
-                class="bg-tertery text-secondary font-bold p-4 h-fit text-center rounded-full before:vertical relative"
+                class="bg-tertery text-secondary font-bold p-[13px] w-12 h-12 rounded-[50%] before:vertical relative"
                 >03</span
               >
               <div>
@@ -338,9 +334,7 @@
               class="flex container py-16 flex-wrap flex-col md:flex-row justify-between items-center text-center md:text-left"
             >
               <div class="flex-1">
-                <h1 class="text-secondary font-bold">
-                  Show Us Your Smile
-                </h1>
+                <h1 class="text-secondary font-bold">Show Us Your Smile</h1>
               </div>
               <div class="flex-1">
                 <p>
@@ -546,20 +540,23 @@
               You Deserve a Beautiful, Functional Smile
             </h1>
             <ul class="flex flex-col gap-y-3 text-sm">
-              <li>
+              <li class="hover:bg-white p-2 rounded-md">
                 <img src="/assets/svg/location.svg" class="inline pr-4" />
                 <a
                   href="https://www.google.com/maps/place/Denovo+Dental+Implant+Center/@47.4467758,-122.4785834,11z/data=!4m6!3m5!1s0x54905deb195871fb:0xc76bee5d670eacad!8m2!3d47.4467758!4d-122.198432!15sChxEZW5vdm8gRGVudGFsIEltcGxhbnQgQ2VudGVyWh4iHGRlbm92byBkZW50YWwgaW1wbGFudCBjZW50ZXKSAQdkZW50aXN0mgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5sYWs1TFZXdG5SUkFC4AEA?shorturl=1"
-                  >10700 SE 174th St. Suite 202, Renton, WA 98055</a
-                >
+                  >10700 SE 174th St. Suite 202,
+                  <span class="max-xs:block max-xs:pl-12"
+                    >Renton, WA 98055</span
+                  >
+                </a>
               </li>
 
-              <li>
+              <li class="hover:bg-white p-2 rounded-md">
                 <img src="/assets/svg/phone.svg" class="inline pr-4" />
                 <a href="tel:425-276-4611">425-276-4611</a>
               </li>
 
-              <li>
+              <li class="hover:bg-white p-2 rounded-md">
                 <img src="/assets/svg/mail.svg" class="inline pr-4" />
                 <a href="mailto:support@denovosmiles.com"
                   >support@denovosmiles.com</a
@@ -567,11 +564,11 @@
               </li>
             </ul>
 
-            <ul
-              class="flex justify-center md:justify-start items-center gap-x-8 mt-16"
-            >
-              <li class="bg-white text-primary rounded-full p-3">
-                <a href="https://www.instagram.com">
+            <ul class="flex md:justify-start items-center gap-x-8 mt-16">
+              <li
+                class="hover:bg-white hover:text-primary cursor-pointer rounded-full p-3"
+              >
+                <a href="javascript:;">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="28"
@@ -585,23 +582,27 @@
                   </svg>
                 </a>
               </li>
-              <li class="bg-white text-primary rounded-full p-3">
-                <a href="https://www.facebook.com">
+              <li
+                class="hover:bg-white hover:text-primary cursor-pointer active:text-secondary rounded-full p-3"
+              >
+                <a href="javascript:;">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="32"
                     height="32"
-                    viewBox="0 0 512 512"
+                    viewBox="0 0 1024 1024"
                   >
                     <path
-                      d="M288 192v-38.1c0-17.2 3.8-25.9 30.5-25.9H352V64h-55.9c-68.5 0-91.1 31.4-91.1 85.3V192h-45v64h45v192h83V256h56.4l7.6-64h-64zm42.2 48H272v192h-51V240h-45v-32h45v-58.7c0-24.5 5.4-41.2 15.5-51.8 11.2-12 31.1-17.5 59.6-17.5H336v32h-17.5c-12 0-27.5 1.1-37.1 11.7-8.1 9-9.4 20.1-9.4 30.1V208h62l-3.8 32z"
                       fill="currentColor"
+                      d="M581.76 80.496c3.808 0 5.999.16 5.999.16h83.568l-.431 96h-83.008c-45.68 0-44.624 39.007-44.624 39.007v152.192h161.632l-22.56 95.872h-139.6v479.776h-95.904l-.064-479.776H319.36l-.256-95.872h127.712V218.671C446.83 88.591 554.864 80.495 581.76 80.495zm89.567.159h.16h-.16zm-89.567-64.16c-23.008 0-67.97 3.809-110.562 29.473c-40.32 24.256-88.368 73.935-88.368 172.688v85.183h-63.712c-17.008 0-33.312 6.784-45.344 18.817a64.003 64.003 0 0 0-18.655 45.408l.256 95.872c.128 35.248 28.752 63.776 64 63.776h63.408l.064 415.776c0 35.344 28.657 64 64 64h95.905c35.343 0 64-28.656 64-64V527.712h75.6c28.4 0 53.407-18.72 61.407-45.967l22.56-95.873c5.68-19.343 1.903-40.255-10.192-56.368a63.912 63.912 0 0 0-51.217-25.664h-97.632v-63.152l63.632-.032c35.216 0 63.84-28.464 64-63.712l.431-92.752a64.3 64.3 0 0 0 .097-3.536c0-35.344-28.592-64-63.935-64h-81.936c-1.84-.096-4.496-.16-7.807-.161z"
                     />
                   </svg>
                 </a>
               </li>
-              <li class="bg-white text-primary rounded-full p-3">
-                <a href="https://www.twitter.com">
+              <li
+                class="hover:bg-white hover:text-primary cursor-pointer rounded-full p-3"
+              >
+                <a href="javascript:;">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="32"
@@ -718,7 +719,7 @@
       <div class="bg-secondary py-7">
         <div class="container">
           <div class="flex justify-center">
-            <img src="/assets/svg/logo_footer.svg" />
+            <img src="/assets/svg/logo_footer.svg" class="max-w-[112px]" />
           </div>
 
           <ul
@@ -750,7 +751,7 @@
             <div>
               <ul class="flex justify-start items-center gap-x-8">
                 <li class="bg-white/10 rounded-full p-2">
-                  <a href="https://www.instagram.com">
+                  <a href="javascript:;">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       class="text-white"
@@ -766,7 +767,7 @@
                   </a>
                 </li>
                 <li class="bg-white/10 rounded-full p-2">
-                  <a href="https://www.twitter.com">
+                  <a href="javascript:;">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       class="text-white"
@@ -782,7 +783,7 @@
                   </a>
                 </li>
                 <li class="bg-white/10 rounded-full p-2">
-                  <a href="https://www.youtube.com">
+                  <a href="javascript:;">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       class="text-white"
@@ -816,6 +817,6 @@
       type="text/javascript"
       src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
-    <script type="text/javascript" src="/js/denovo.js"></script>
+    <script type="text/javascript" src="/js/slider.js"></script>
   </body>
 </html>

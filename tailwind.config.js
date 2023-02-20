@@ -11,7 +11,7 @@ module.exports = {
   content: ["./src/**/*.{html,js,jsx}", "./src/index.html"],
   theme: {
     screens: { 
-      xs: '576px', //max-xs means all screens less tham 576
+      xs: '576px', //max-xs means all screens less then 576px
       sm: '768px',
       md: '992px',
       lg: '1200px',
@@ -57,6 +57,7 @@ module.exports = {
     colors: {
       gray: colors.gray,
       white: colors.white,
+      transparent: colors.transparent,
       primary: "#FC6136",
       secondary: "#67568C", 
       tertery: "#FBDD74",

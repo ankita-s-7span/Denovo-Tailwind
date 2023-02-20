@@ -1,4 +1,11 @@
 .slick-dots li.slick-active button:before {
     opacity: .75 !important;
-    color: #fc6136 !important;
+    color: theme('colors.primary') !important;
+  }
+
+  .slick-dots li button:hover:before,
+  .slick-dots li button:focus:before
+  {
+    opacity: .75 !important;
+    color: theme('colors.primary') !important;
   }
